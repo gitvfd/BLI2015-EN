@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>OCDE Better Life 2015</title>
+  <meta name="description" content="How's Life?">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon.png">
+
+  <link href="theme/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <header class="site-header">
+    <h1>
+      <a class="site-header__logo">
+        <span class="site-header__title">OCDE Better Life Index</span>
+        <span class="site-header__logo-mobile">
+          <img src="content/logo-mobile.png" srcset="content/logo-mobile@2x.png 2x" alt="OECD Better Life Index">
+        </span>
+        <span class="site-header__logo-desktop">
+          <img src="content/logo.png" srcset="content/logo@2x.png 2x" alt="OECD Better Life Index">
+        </span>
+      </a>
+    </h1>
+    <!--<a href="it" class="site-header__language">Italiano</a>-->
+  </header>
+
+
+  <div id="content">
+    
+
+    <div class="row">
+    <div class="bli-intro">
+      <div class="box box--padding box--padding expandable">
+        <h2>How’s life?</h2>
+        
+        <p class="intro">
+          What is your recipe for a better life — a good education, clean air, a nice home, money?
+        </p>
+        
+        <p>
+          The OECD Better Life Index is an interactive tool that invites you to come up with your own recipe and share it with us. By creating and visualising your own index, you are able to compare some of the key factors that contribute to well-being. With your help, we can start to understand what matters most to people around the world.
+        </p>
+        
+        <p>
+          What’s most important to you? Create your Better Life Index and let us know.        
+        </p>
+        
+        <ul class="list-links">
+          <li>
+            <a href="http://www.oecdbetterlifeindex.org">Learn more about the OECD Better Life Index</a>
+          </li>
+        </ul>
+        <a class="expandable__expand js-expand">More</a>
+      </div><!-- /box -->
+    </div><!-- /bli-intro -->
+
+    <div class="bli-mixer">
+      <div class="box box--padding">
+        <p class="intro">
+          Tell us what makes a better life for you: rate these 11 topics to create your Better Life Index.
+        </p>
+        <ul class="bli-mixer__topics">
+          <li class="bli-mixer__topic topic-ho">
+            <span class="icon icon-ho"></span>
+            <span class="bli-mixer__caption">Housing</span>
+            <div class="mixer-slider topic__slider js-slider" data-topic="ho"></div>
+          </li>
+          <li class="bli-mixer__topic topic-iw">
+            <span class="icon icon-iw"></span>
+            <span class="bli-mixer__caption">Income</span>
+            <div class="mixer-slider topic__slider js-slider" data-topic="iw"></div>
+          </li>
+          <li class="bli-mixer__topic topic-je">
+            <span class="icon icon-je"></span>
+            <span class="bli-mixer__caption">Jobs</span>
+            <div class="mixer-slider topic__slider js-slider" data-topic="je"></div>
+          </li>
+          <li class="bli-mixer__topic topic-sc">
+            <span class="icon icon-sc"></span>
+            <span class="bli-mixer__caption">Community</span>
+            <div class="mixer-slider topic__slider js-slider" data-topic="sc"></div>
+          </li>
+          <li class="bli-mixer__topic topic-es">
+            <span class="icon icon-es"></span>
+            <span class="bli-mixer__caption">Education</span>
+            <div class="mixer-slider topic__slider js-slider" data-topic="es"></div>
+          </li>
+          <li class="bli-mixer__topic topic-eq">
+            <span class="icon icon-eq"></span>
+            <span class="bli-mixer__caption">Environment</span>
+            <div class="mixer-slider topic__slider js-slider" data-topic="eq"></div>
+          </li>
+          <li class="bli-mixer__topic topic-cg">
+            <span class="icon icon-cg"></span>
+            <span class="bli-mixer__caption">Civic Engagement</span>
+            <div class="mixer-slider topic__slider js-slider" data-topic="cg"></div>
+          </li>
+          <li class="bli-mixer__topic topic-hs">
+            <span class="icon icon-hs"></span>
+            <span class="bli-mixer__caption">Health</span>
+            <div class="mixer-slider topic__slider js-slider" data-topic="hs"></div>
+          </li>
+          <li class="bli-mixer__topic topic-sw">
+            <span class="icon icon-sw"></span>
+            <span class="bli-mixer__caption">Life Satisfaction</span>
+            <div class="mixer-slider topic__slider js-slider" data-topic="sw"></div>
+          </li>
+          <li class="bli-mixer__topic topic-ps">
+            <span class="icon icon-ps"></span>
+            <span class="bli-mixer__caption">Safety</span>
+            <div class="mixer-slider topic__slider js-slider" data-topic="ps"></div>
+          </li>
+          <li class="bli-mixer__topic topic-wl">
+            <span class="icon icon-wl"></span>
+            <span class="bli-mixer__caption">Work-Life Balance</span>
+            <div class="mixer-slider topic__slider js-slider" data-topic="wl"></div>
+          </li>
+        </ul>
+
+        <a href="http://www.oecdbetterlifeindex.org" class="button button--arrow js-submit-mixer">
+          See and share your Better Life Index</i>
+        </a>
+
+        <a href="http://www.oecdbetterlifeindex.org" class="bli-mixer__footer-link">
+          or visit the Better Life Index</i>
+        </a>
+
+      </div><!-- /box box padding -->
+    </div><!-- /bli-mixer -->
+    </div><!-- /row -->
+
+    <div class="bli-responses">
+      <div class="row">
+        <div class="box box--padding">
+          <p class="intro">
+            Want to find out what matters most to Better Life Index users in your country? Select your country and the one you want to compare it to.
+          </p>
+
+          <select class="bli-responses__dropdown js-dropdown js-dropdown-1">
+            <option value="" disabled selected>Select your country</option>
+           <option value="AUS">Australia</option>
+            <option value="AUT">Austria</option>
+            <option value="BEL">Belgium</option>
+            <option value="BRA">Brazil</option>
+            <option value="CAN">Canada</option>
+            <option value="CHL">Chile</option>
+            <option value="CZE">Czech Republic</option>
+            <option value="DNK">Denmark</option>
+            <option value="EST">Estonia</option>
+            <option value="FIN">Finland</option>
+            <option value="FRA">France</option>
+            <option value="DEU">Germany</option>
+            <option value="GRC">Greece</option>
+            <option value="HUN">Hungary</option>
+            <option value="ISL">Iceland</option>
+            <option value="IRL">Ireland</option>
+            <option value="ISR">Israel</option>
+            <option value="ITA">Italy</option>
+            <option value="JPN">Japan</option>
+            <option value="KOR">Korea</option>
+            <option value="LUX">Luxembourg</option>
+            <option value="MEX">Mexico</option>
+            <option value="NLD">Netherlands</option>
+            <option value="NZL">New Zealand</option>
+            <option value="NOR">Norway</option>
+            <option value="POL">Poland</option>
+            <option value="PRT">Portugal</option>
+            <option value="RUS">Russian Federation</option>
+            <option value="SVK">Slovak Republic</option>
+            <option value="SVN">Slovenia</option>
+            <option value="ESP">Spain</option>
+            <option value="SWE">Sweden</option>
+            <option value="CHE">Switzerland</option>
+            <option value="TUR">Turkey</option>
+            <option value="GBR">United Kingdom</option>
+            <option value="USA">United States</option>
+          </select>
+
+          <select class="bli-responses__dropdown js-dropdown js-dropdown-2">
+            <option value="" disabled selected>Country to compare</option>
+           <option value="AUS">Australia</option>
+            <option value="AUT">Austria</option>
+            <option value="BEL">Belgium</option>
+            <option value="BRA">Brazil</option>
+            <option value="CAN">Canada</option>
+            <option value="CHL">Chile</option>
+            <option value="CZE">Czech Republic</option>
+            <option value="DNK">Denmark</option>
+            <option value="EST">Estonia</option>
+            <option value="FIN">Finland</option>
+            <option value="FRA">France</option>
+            <option value="DEU">Germany</option>
+            <option value="GRC">Greece</option>
+            <option value="HUN">Hungary</option>
+            <option value="ISL">Iceland</option>
+            <option value="IRL">Ireland</option>
+            <option value="ISR">Israel</option>
+            <option value="ITA">Italy</option>
+            <option value="JPN">Japan</option>
+            <option value="KOR">Korea</option>
+            <option value="LUX">Luxembourg</option>
+            <option value="MEX">Mexico</option>
+            <option value="NLD">Netherlands</option>
+            <option value="NZL">New Zealand</option>
+            <option value="NOR">Norway</option>
+            <option value="POL">Poland</option>
+            <option value="PRT">Portugal</option>
+            <option value="RUS">Russian Federation</option>
+            <option value="SVK">Slovak Republic</option>
+            <option value="SVN">Slovenia</option>
+            <option value="ESP">Spain</option>
+            <option value="SWE">Sweden</option>
+            <option value="CHE">Switzerland</option>
+            <option value="TUR">Turkey</option>
+            <option value="GBR">United Kingdom</option>
+            <option value="USA">United States</option>
+          </select>
+
+          <a href="http://www.oecdbetterlifeindex.org/responses" class="button button--arrow js-submit-responses">
+            Show country comparison 
+          </a>
+        </div><!-- /box box-padding -->
+      </div><!-- /row -->
+    </div><!-- /bli-responses -->
+
+    <div class="logos box box--padding">
+          <a href="#" class="logos__bli">
+            <img src="content/footer-logo-bli.png" srcset="content/footer-logo-bli@2x.png 2x" alt="OECD Better Life Index">
+          </a>
+    </div><!-- /box box padding -->
+  </div><!-- /content -->
+
+  <footer class="site-footer">
+    <div class="site-footer__copyright">
+      © OECD 2015. All rights reserved.
+    </div><!-- /site-footer__copyright -->
+
+    <ul class="site-footer__links">
+      <li>
+        <a href="http://www.oecdbetterlifeindex.org">Visit the Better Life Index</i></a>
+      </li>
+    </ul>
+    <ul class="site-footer__links">
+      <li>
+        <a href="http://www.oecdbetterlifeindex.org/legal/terms-conditions/">Terms & Conditions</a>
+      </li>
+    </ul>
+    <ul class="site-footer__links">
+      <li>
+        <a href="http://www.oecdbetterlifeindex.org/legal/privacy-policy/">Privacy Policy</a>
+      </li>
+    </ul>
+    <ul class="site-footer__links">
+      <li>
+        <a href="http://www.oecdbetterlifeindex.org/contact/contact-us/">Contact Us</a>
+      </li>
+    </ul>
+
+  </footer>
+
+
+  <script src="theme/js/jquery-2.1.3.min.js"></script>
+  <script src="theme/js/jquery.iosslider.min.js"></script>
+  <script src="theme/js/jquery.bli-slider.js"></script>
+  <script src="theme/js/main.js"></script>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-51983915-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
